@@ -1,0 +1,646 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Nabar Open */
+.navbar{
+    padding: 15px 0px !important;
+}
+.bg-light{
+    background-color: #f8f9fa !important;
+}
+.nav-item .nav-link{
+    color: #000 !important;
+    font-size: 18px;
+    margin-right: 25px;
+}
+.navbar-brand{
+    display: inline-block;
+}
+#ancor{
+    background-color: #d0a772 !important;
+    color: #fff !important;
+    border-radius: 10px;
+}
+.nav-item .nav-link:hover{
+    background-color: #d0a772;
+    color: #fff !important;
+    border-radius: 10px;
+}
+.dropdown-menu{
+    border: none !important;
+    box-shadow: 2p 5px 6px rgba(0,0,0,0.5) !important;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: #d0a772;
+    color: #fff;
+}
+.navbar-toggler:hover{
+    background-color: #d0a772 !important;
+}
+/* Nabar Close */ 
+
+/* Section 1 Slider Open */
+.slider-1{
+    width: 100%;
+    height: 640px;
+    background-image: url(img/slider-01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.slider-2{
+    width: 100%;
+    height: 640px;
+    background-image: url(img/slider-02.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.slider-3{
+    width: 100%;
+    height: 640px;
+    background-image: url(img/slider-03.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.slider-text{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 300px;
+}
+.slider-text h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: 10px;
+    font-family: Britannic Bold;
+}
+.slider-text p{
+    color: #fff;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    font-family: Britannic Bold;
+}
+.slider-text .button-6{
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 30px;
+    border: 3px solid #cfa671;
+    background-color: transparent;
+    transition: 1s;
+}
+.button-6:hover{
+    background-color: #cfa671;
+
+}
+/* Section 1 Slider Close */
+
+/* Section 2 Open */
+.image-1{
+    width: 100%;
+    box-shadow: -10px -10px 0px #d0a772;
+}
+.image-side-text{
+    margin-top: 10px;
+}
+.image-side-text h1{
+    font-size: 35px;
+    color: #000;
+    font-family: Britannic Bold;
+    margin-top: 10px;
+}
+.image-side-text h1 span{
+    color: #cfa671;
+}
+.image-side-text h4{
+    color: #000;
+    font-size: 18px;
+    font-family: Britannic Bold;
+    margin-top: 10px;
+}
+.image-side-text p{
+    font-size: 18px;
+    color: gray;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.image-side-text .button-6{
+    margin-top: 10px;
+    color: #cfa671;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 30px;
+    border: 3px solid #cfa671;
+    background-color: transparent;
+    transition: 1s;
+}
+.image-side-text .button-6:hover{
+    background-color: #d0a772;
+    color: #fff;
+}
+/* Section 2 Close */
+
+/* Section 3 Open */
+#image-fixed{
+    background-image: url(img/qt-bg.jpg);
+    background-attachment: fixed;
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.image-fixed-text p{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 44px;
+    font-family: Britannic Bold;
+    margin-bottom: 20px;
+}
+.image-fixed-text .lead{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Britannic Bold;
+}
+/* Section 3 Close */
+
+/* Section 4 Open */
+.section-4-text h4{
+    color: #000;
+    font-size: 28px;
+    font-family: Britannic Bold;
+}
+.section-4-text p{
+    font-size: 18px;
+    font-weight: 200;
+}
+.wrapper{
+    position: relative;
+    width: 100%;
+    box-shadow: 0 0 10px #ccc;
+}
+.image-2{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(207,166,113,0.9);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: all .3s ease;
+}
+.wrapper:hover .overlay{
+    width: 100%;
+}
+.overlay-text{
+    white-space: nowrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.overlay-text h4{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Britannic Bold;
+}
+.overlay-text p{
+    color: #ffffff;
+    font-size: 18px;
+    border-bottom: 1px dashed #101010;
+    margin: 0px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 1rem;
+}
+.overlay-text h5{
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+/* Section 4 Close */
+
+/* Section 5 Open */
+.section-5-text h4{
+    color: #000;
+    font-size: 28px;
+    font-family: Britannic Bold;
+}
+.section-5-text p{
+    font-size: 18px;
+    font-weight: 200;
+}
+.image-3{
+    width: 100%;
+    /* transition: all .3s ease-in-out; */
+}
+/* .image-3:hover{
+    width: 103%;
+    box-shadow: 0 0 10px #ccc;
+} */
+ .wrapper-1{
+    overflow: hidden;
+    box-shadow: 0 0 10px #ccc
+ }
+ .wrapper-1 .image-3{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 400ms;
+ }
+ .wrapper-1 .image-3:hover{
+    transform: scale(1.2);
+ }
+/* Section 5 Close */
+
+/* Section 6 Open */
+.section-6-text h4{
+    color: #000;
+    font-size: 28px;
+    font-family: Britannic Bold;
+}
+.section-6-text p{
+    font-size: 18px;
+    font-weight: 200px;
+}
+.slider-4 .image-4{
+    border-radius: 50%;
+    width: 120px;
+}
+.slider-4 h4{
+    font-size: 23px;
+    font-weight: bold;
+    color: #d0a772;
+}
+.slider-4 h6{
+    font-size: 10px;
+}
+.slider-4 p{
+    font-size: 14px;
+    margin-top: 20px;
+}
+.carousel-control-prev{
+    background-color: #d0a772 !important;
+    color: #ffffff !important;
+    display: block;
+    position: absolute;
+    width: 8%;
+    height: 50px;
+    top: 70%;
+    font-size: 28px;
+}
+.carousel-control-prev:hover{
+    background-color: #000 !important;
+    color: #ffffff !important;
+}
+.carousel-control-next{
+    background-color: #d0a772 !important;
+    color: #ffffff !important;
+    display: block;
+    position: absolute;
+    width: 8%;
+    height: 50px;
+    top: 70%;
+    font-size: 28px;
+}
+.carousel-control-next:hover{
+    background-color: #000 !important;
+    color: #ffffff !important;
+}
+/* Section 6 Close */
+
+/* Section 7 Open */
+.bgcolor{
+    background-color: #d0a772;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bgcolor i{
+    background: #fff;
+    color: #d0a772;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 70px;
+}
+.font-text{
+    display: inline-block;
+}
+.font-text h4{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 5px;
+    padding: 0px;
+    line-height: 24px;
+    font-family: Britannic Bold;
+}
+.font-text p{
+    margin: 0px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: Britannic Bold;
+    font-size: 18px;
+}
+/* Section 7 Close */
+
+/* Footer Open */
+#bgdark{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(img/footer-bg.jpg);
+}
+#bgdark h3{
+    color: #ffffff;
+    text-transform: uppercase;
+    border-bottom: 1px dashed rgba(207,166,113,0.5);
+    margin-bottom: 10px !important;
+    font-size: 18px;
+    font-family: Britannic Bold;
+}
+#bgdark p{
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    margin: 0px;
+    padding-bottom: 10px;
+    font-family: Britannic Bold;
+}
+.form_input{
+    background-color: black;
+    color: #000;
+    border: none;
+    font-size: 15px !important;
+    padding: 0 10px;
+    line-height: 50px;
+    width: 100%;
+}
+.submit{
+    background-color: #d0a772;
+    font-size: 16px;
+    line-height: 50px;
+    padding: 0 10px;
+    width: 100%;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: Britannic Bold;
+
+}
+/* Footer CLose */
+
+/* Footer Open */
+.footer-1{
+    background-color: #000;
+    padding: 30px 0px;
+}
+.footer-text{
+    font-size: 16px;
+    text-align: center;
+    color: rgba(255,255,255,0.8);
+    font-family: Britannic Bold;
+    
+}
+/* Footer Close */
+
+
+/* Menu Section */
+/* Section 1 Open */
+.bg-pic{
+    padding: 250px 0px 150px;
+    background-image: url(img/all-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.bg-pic h1{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: Britannic Bold;
+}
+/* Section 1 Close */
+
+/* Reservation Section */
+.form{
+    width: 300px;
+    padding: 16px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+input[type=text], input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=submit] {
+    background-color: #d0a772;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Stuff Section */
+.team img{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 0px;
+}
+.team img{ 
+    border: 5px solid #d0a772;
+}
+
+/* Blog Section */
+.blog-text{
+    /* position: absolute;
+    top: 0; */
+    border: 2px solid #ddd;
+    background: #fff;
+    padding: 30px 25px;
+    height: 400px;
+    margin-top: 20px;
+}
+.blog-text h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    font-family: Britannic Bold;
+}
+.blog-text ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.blog-text li{
+    display: inline-block;
+    padding: 0px 5px;
+    color: #d0a772;
+    font-family: Britannic Bold;
+}
+.blog-text p{
+    padding: 10px 0px 0 0;
+    margin: 0px;
+    font-family: Britannic Bold;
+}
+.blog-text .button-7{
+    margin-top: 10px;
+    color: #cfa671;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 30px;
+    border: 2px solid #cfa671;
+    background-color: transparent;
+    transition: 1s;
+}
+.blog-text .button-7:hover{
+    background-color: #cfa671;
+    color: #ccc;
+}
+
+
+/* Blog Single Section */
+.blog-image{
+    box-shadow: -15px -15px 0px 0px rgba(0,0,0,0.4);
+}
+.blog-image img{
+    width: 103%;
+    height: 450px;
+}
+.blog-image .blog-box{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #cfa671;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 5px 15px 5px 5px;
+}
+.blog-image-text h3{
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-family: Britannic Bold;
+}
+.search-form{
+    position: relative;
+    border-bottom: 1px solid #101010;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+.search-form input{
+    width: 100%;
+    min-height: 40px;
+    border: 1px solid rgba(0,0,0,0.3);
+    padding: 5px 40px 5px 10px;
+    font-size: 15px;
+    color: #222222;
+}
+.search-btn{
+    position: absolute;
+    right: 0px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    min-height: 45px;
+    padding: 0px 15px;
+}
+.ul-list ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.ul-list ul li{
+    line-height: 14px;
+    padding: 10px 0px;
+    border: 1px solid #f5f5f5;
+}
+.ul-list ul li a{
+    text-transform: capitalize;
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-family: Britannic Bold;
+}
+.ul-list ul li a:hover{
+    color: #d0a772;
+}
+.second-para h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    font-family: Britannic Bold;
+}
+.second-para ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.second-para ul li{
+    display: inline-block;
+    padding: 0px 5px;
+    color: #222222;
+    font-family: Britannic Bold;
+    font-size: 14px;
+}
+.second-para ul li span{
+    color: #cfa671;
+}
+.second-para p{
+    font-size: 14px;
+    color: #222222;
+    font-family: Britannic Bold;
+    margin-top: 10px;
+}
+
+/* Contact Section */
+.form-group{
+    margin-bottom: 1rem;
+    margin-top: 10px;
+}
+.form-control{
+    border-radius: 0px;
+    min-height: 50px;
+}
+.submit{
+    margin-top: 20px;
+}
+.btn .btn-common{
+    color: #d0a772;
+    background-color: transparent;
+    border-color: #cfa671;
+    background-image: none;
+}
+.btn{
+    font-weight: 600;
+    text-align: center;
+    border: 2px solid transparent;
+    padding: 12px 30px;
+    font-size: 16px;
+    line-height: 1.5;
+}
